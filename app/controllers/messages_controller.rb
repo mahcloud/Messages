@@ -5,7 +5,6 @@ class MessagesController < ApplicationController
 
   def index
     @messages = Message.all
-    respond_with(@messages)
   end
 
   def show
